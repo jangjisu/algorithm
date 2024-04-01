@@ -60,7 +60,7 @@ public class BOJ_2606 {
             int nodeIndex = q.poll();
 
             result.add(nodeIndex);
-            System.out.println("add : " + nodeIndex);
+            //System.out.println("add : " + nodeIndex);
 
             for(int[] arr : node){
                 if(arr[0] == nodeIndex && !visited[arr[1]]) {
