@@ -7,14 +7,7 @@ import java.util.*;
 public class BOJ_2606 {
 
     public static void main(String[] args) throws IOException {
-        //바이러스
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        //String[] graph = {"1 2", "2 3", "1 5", "5 2", "5 6", "4 7"};
-        //String[] graph = {"1 4", "2 3", "3 4", "4 5", "5 6"};
-        //String[] graph = {"1 2", "1 3", "3 4", "6 1"};
-
-
 
         String a = br.readLine();
         int point_num = Integer.parseInt(a);

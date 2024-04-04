@@ -5,9 +5,6 @@ import java.util.Stack;
 
 public class BOJ_9012 {
     public static void main(String[] args) throws IOException {
-        //괄호
-
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 

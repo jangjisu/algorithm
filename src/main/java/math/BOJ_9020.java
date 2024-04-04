@@ -6,8 +6,6 @@ import java.io.InputStreamReader;
 
 public class BOJ_9020 {
     public static void main(String[] args) throws IOException {
-        //골드바흐의 추측
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String num_str = br.readLine();

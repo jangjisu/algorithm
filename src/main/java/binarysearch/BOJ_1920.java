@@ -9,7 +9,6 @@ import java.util.HashMap;
 
 public class BOJ_1920 {
     public static void main(String[] args) throws IOException {
-        //수 찾기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         //HashMap<String, Integer> map = new HashMap<>();
