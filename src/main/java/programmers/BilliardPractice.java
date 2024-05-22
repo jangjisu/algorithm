@@ -1,6 +1,6 @@
-package math;
+package programmers;
 
-public class programersBilliardPractice {
+public class BilliardPractice {
     public int[] solution(int m, int n, int startX, int startY, int[][] balls) {
 
         int[] ans = new int[balls.length];
