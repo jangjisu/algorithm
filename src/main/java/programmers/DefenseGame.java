@@ -4,18 +4,12 @@ import java.util.PriorityQueue;
 
 public class DefenseGame {
     public static void main(String[] args) {
-        int[] enemy = {1,1,1,1,1,1,1};
+        int[] enemy = {3,3,3,3};
 
-        System.out.println(solution(7, 3, enemy));
+        System.out.println(solution(2, 4, enemy));
     }
 
     public static int solution(int n, int k, int[] enemy) {
-        int answer = 0;
-
-        if(enemy.length <= k) {
-            return enemy.length;
-        }
-
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for(int i=0; i<enemy.length; i++) {
@@ -32,7 +26,6 @@ public class DefenseGame {
                 }
             }
         }
-
 
         return enemy.length;
     }
