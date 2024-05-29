@@ -1,8 +1,8 @@
-package math;
+package programmers;
 
 import java.util.PriorityQueue;
 
-public class programmersDefenseGame {
+public class DefenseGame {
     public static void main(String[] args) {
         int[] enemy = {1,1,1,1,1,1,1};
 
