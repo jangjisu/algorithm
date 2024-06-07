@@ -17,6 +17,7 @@ public class DefenseGame {
             pq.add(enemy[i]);
 
             if(i >= k) {
+
                 int poll = pq.poll();
 
                 if(n - poll < 0){
