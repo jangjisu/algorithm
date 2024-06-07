@@ -8,7 +8,7 @@ public class MagicElevator {
 
     public static int answer = 0;
     public static int solution(int storey) {
-        while(storey / 10 != 0) {
+        while(storey != 0) {
             int check = storey%10;
 
             if(check == 5) {
@@ -27,14 +27,6 @@ public class MagicElevator {
             }
 
             storey /= 10;
-        }
-
-        if(storey != 0){
-            if(storey > 5) {
-                answer += 11 - storey;
-            }else{
-                answer += storey;
-            }
         }
 
         return answer;
